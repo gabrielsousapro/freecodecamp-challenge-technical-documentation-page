@@ -1,0 +1,15 @@
+:root {
+    --color-background: #fff;
+
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100vh;
+}
+
+#container {
+    width: 100vw;
+    max-width: 700px;
+    background-color: #cecece;
+}
