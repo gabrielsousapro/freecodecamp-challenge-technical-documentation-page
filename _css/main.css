@@ -1,17 +1,18 @@
 :root {
     --color-background: #fff;
+    --text-color: #4d4e53;
+    --header-color: #000;
+    --primary-border-color: rgba(0, 22, 22, 0.4);
+    --code-background-color: #f7f7f7;
+
     font-size: 62.5%;
 }
 
 html, body {
     min-width: 320px;
-    color: #4d4e53;
+    color: var(--text-color);
     background-color: var(--color-background);
     font-family: "Open Sans", Arial, sans-serif;
     line-height: 1.5;
-}
-
-#container {
-    width: 100vw;
-    max-width: 700px;
+    font-size: 1.6rem;
 }
